@@ -1,6 +1,6 @@
 # Massier
 It's a management based tool which help to manage school, college and university students mess more easier and smarter way.
-##Introduction
+## Introduction
 Scope: The Massier app will include features such as access control, meal request, daily meal count calculator, notification module, money alert, notice board, monthly costly summary, birthday notice, utility cost management, monthly analysis report, and chat module. 
 Definitions: 
 Access control: the ability to limit user access to certain features or data within the app 
