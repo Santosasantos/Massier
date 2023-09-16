@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+    text-align: center; 
+    background: url(../assets/images/html_table.jpg) center / cover;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    overflow-x: auto; /* Add horizontal scrolling */
+    table-layout: fixed; /* Set table layout to fixed */
+}
+
+table td {
+    word-wrap: break-word; /* Allow text to wrap within table cells */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+   
+}
+.inp{
+    border: 1px solid rgb(138, 209, 138);
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(138, 209, 138);
+}
+thead:first-child {
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+}
+
+
+
+tr:last-child {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+
+
+.add-button {
+    background-color: rgb(138, 209, 138);
+    color: #000;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.add-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+td[contenteditable="true"]:focus {
+    outline: 2px solid rgb(138, 209, 138);
+    
+}
+
+
+.month_selector {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+
+
+table{ 
+     width: 82vw;
+    height: 90vh;
+    background-color: #ccc;
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+
+    overflow: auto;}
+/* CSS for the container of <div> elements */
+
+.table_container{
+
+    /* width: 70vw;
+    height: 90vh; */
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;;
+    background-color: #fff5;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+
+    overflow: auto;
+}
+
+.totals-container {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto; 
+}
+
+
+/* CSS for individual boxes */
+.total-box {
+    display: flex; /* Turn the container into a flex container */
+    justify-content: center; /* Center horizontally within the container */
+    align-items: center; /* Center vertically within the container */
+    flex-basis: 19%; /* Distribute them evenly with a little space in between */
+    height: 50px;
+    border: 1px solid #ddd;
+    text-align: center; /* Horizontal centering */
+    color: rgb(255, 255, 255); 
+    margin: 20px;
+    border-radius: 7px;
+}
+@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+    .totals-container {
+        flex-wrap: wrap; /* Allow boxes to wrap onto the next line */
+        justify-content: space-between;
+    }
+
+    .total-box {
+        flex-basis: calc(50% - 50px); /* 50% width with some spacing between boxes */
+
+    }
+}
+
+
+.month_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

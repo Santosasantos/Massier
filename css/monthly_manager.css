@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.user-amount-container{
+    background: linear-gradient(#141e30, #243b55);
+}
+
+body {
+    
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.left-container {
+    height: 100vh;
+    background-image: linear-gradient(#0277BD, #03A9F4);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.right-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.sub-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.month-container {
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.calc-container {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* Add this CSS to your existing stylesheet */
+.dropdown {
+    display: inline-block; /* Keep the dropdowns inline */
+    margin-right: 20px; /* Add some space between dropdowns */
+}
+
+
+.fs-white {
+    color: #ffffff;
+}
+
+.fs-dark-grey {
+    color: #4e4e4e;
+}
+
+.budget-container {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 4px #000000;
+}
+
+.month-amount {
+    font-size: 36px;
+    font-weight: 700;
+    left: 100px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #00446D;
+}
+
+.expense-row {
+    padding: 10px;
+}
+
+.expense-date {
+    color: #077CC1;
+}
+
+.expense-text {
+    color: #077CC1;
+}
+
+.expense-list {
+    overflow-y: scroll;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.expense-value {
+    text-align: end;
+}
+
+.expense-saving {
+    color: #039300;
+}
+
+.expense-cost {
+    color: #E40000;
+}
+
+.expense-investment {
+    color: #f48803;
+}
+
+#expense-chart {
+    margin: 20% 0;
+}
+
+.btn-submit-expense {
+    border-radius: 50%;
+}
+
+.currency-select {
+    margin: 0 4%;
+}
+
+.selected-currency {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1%;
+}
+.btn{
+    margin-top:30px;
+    margin-left:100px;
+    color:white;
+    height:35px;
+    width:100px;
+    background-color:#0ac94a;
+    border:none;
+    text-align:center;
+
+    cursor:pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    box-shadow:10px 7px 70px 20px #0ac94a;
+}
+/* Style for the addform */
+.addform {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add some padding */
+    margin: 20px; /* Add margin for spacing */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+}
+
+/* Style for the fixed-cost */
+.fixed-cost {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add some padding */
+    margin: 20px; /* Add margin for spacing */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+}
+
+/* Style for the extracost-show */
+.extracost-show {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add some padding */
+    margin: 20px; /*Add margin for spacing */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    overflow: auto; /* Add scrollbar when content overflows */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table rows */
+table tr {
+    border: 1px solid #ddd;
+}
+
+/* Style for table cells */
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Center-align text */
+}
+h3{
+    color: #ddd;
+}

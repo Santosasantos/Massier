@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Get the current date in the format YYYY-MM-DD
+        const today = new Date().toISOString().split('T')[0];
+        alert(today);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+ <!-- <main>
+            
+            <div class="page-header">
+                <h1>Hi, <?= $name ?></h1>
+                <small>Welcome to <?php 
+                if(isset($_SESSION['mess_name'])) 
+                {
+                echo $mess_name;
+                }
+                else 'Massier'?></small>
+            </div>
+            
+            <div class="page-content">
+            
+                <div class="analytics">
+
+                    <a href=<?php 
+                    if(isset($_SESSION['role'])){
+                        if($_SESSION['role']==1){
+                            echo "/html/meal_manager_html.php";
+                        }
+                        else{
+                            echo "/html/meal_html.php";
+                        }
+                    }
+                    ?>>
+                    <div class="card" style="background: #11a8c3;">
+                        <div class="card-head">
+                            <h2 class="indicator one">Meal</h2>
+                            <span class="las la-utensils"></span>
+                        </div>
+                    
+                            <small>Details about meal</small>
+                    </div>
+                </a>
+                    <div class="card" style="background: #52dc72;">
+                        <div class="card-head">
+                            <h2 class="indicator two"><a href="/html/#"></a>Utility Cost</h2>
+                            <span class="las la-lightbulb"></span>
+                        </div>
+                            <small>Details about utility cost</Details></small>
+                          
+
+                    </div>
+
+                    <div class="card" style="background: #a14ae0;">
+                        <div class="card-head">
+                            <h2 class="indicator three"><a href="/html/#"></a>Deposit</h2>
+                            <span class="las la-wallet"></span>
+                        </div>
+                       
+                            <small>Details about deposit</small>
+                           
+                    
+                    </div>
+
+                    
+                    <div class="card" style="background: rgb(240, 83, 83);">
+                        <div class="card-head">
+                            <h2 class="indicator four"><a href="/html/#"></a>Bazar</h2>
+                            <span class="las la-store-alt"></span>
+                        </div>
+                       
+                            <small>Details about bazar</small>
+                    </div>
+
+            
+
+     
+
+
+
+
+                </div>
+
+
+
+                <div class="chat-content">
+    <button id="messengerbtn" class="active">
+        <i class="fas fa-comment-alt"></i> 
+    </button>
+    <iframe id="chat-frame" class="hidden" src="/html/chat/chat.php" frameborder="0" style="overflow: hidden;"></iframe>
+</div>
+
+                                
+                </div>
+            
+            </div>
+            
+        </main> -->
